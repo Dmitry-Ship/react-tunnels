@@ -1,5 +1,5 @@
 {
-  "name": "react-tunnels",
+  "name": "@manychat/react-tunnels",
   "version": "1.0.2",
   "description": "A easy way to communicate rendering logic and data to ancestor components in React.",
   "main": "./lib/index.js",
