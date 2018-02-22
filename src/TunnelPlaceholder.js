@@ -16,6 +16,7 @@ class TunnelPlaceholder extends Component {
     const { id } = this.props
     const { tunnelState } = this.context
     tunnelState.subscribe(id, this.handlePropsChange)
+    this.forceUpdate()
   }
 
   componentWillUnmount() {
